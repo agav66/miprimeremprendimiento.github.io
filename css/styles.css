@@ -1,0 +1,45 @@
+/* Estilos para el encabezado */
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+/* Estilos para el pie de página */
+footer {
+  color: white;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+  background-color: #f50057; /* Color rosa */
+  border-color: #f50057; /* Color del borde */
+}
+
+.btn-primary:hover {
+  background-color: #d50000; /* Color rosa más oscuro al pasar el mouse */
+  border-color: #d50000; /* Color del borde más oscuro al pasar el mouse */
+}
+
+/* Estilos para el título "Productos" */
+.titulo-productos {
+  color: #f50057; /* Color rosa */
+  font-family: 'Arial Black', sans-serif; /* Fuente negrita */
+  font-size: 3rem; /* Tamaño de fuente */
+  text-align: center; /* Centrado */
+  margin-bottom: 1.5rem; /* Margen inferior */
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #f50057; /* Color rosa para enlaces */
+}
+
+a:hover {
+  color: #d50000; /* Color rosa más oscuro al pasar el mouse */
+}
+
+/* Otros estilos personalizados */
+/* Agrega aquí más estilos según necesites */

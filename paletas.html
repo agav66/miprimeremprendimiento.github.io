@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos Artesanales - Los Más Buscados</title>
+  <!-- Enlace a Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <style>
+    /* Agrega estilos personalizados según sea necesario */
+  </style>
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Los Más Buscados</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Productos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="paletas.html">Paletas</a>
+            <!-- Agrega más categorías si es necesario -->
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="container mt-4">
+    <h1 class="text-center">Paletas</h1>
+    <div class="row">
+      <!-- Aquí puedes agregar las imágenes y la información de tus productos artesanales -->
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="imagenes/paleta1.jpg" class="card-img-top" alt="Artesanal 1" width="300" height="500">
+          <div class="card-body">
+            <h5 class="card-title">Frutos Rojos</h5>
+            <p class="card-text">Diversidad de Sabores a tu gusto. Escoge la tuya.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Ver más</button>
+              </div>
+              <small class="text-muted">Precio: $5.999</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Repite este bloque para más productos -->
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 Los Más Buscados - Helados</p>
+  </footer>
+
+  <!-- Enlaces a Bootstrap JavaScript y jQuery (si es necesario) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

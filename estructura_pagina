@@ -1,0 +1,19 @@
+proyecto/
+│
+├── css/
+│   └── styles.css
+│
+├── img/
+│   └── logo.png
+│
+├── js/
+│   └── script.js
+│
+├── productos/
+│   ├── index.html
+│   ├── Artesanales.html
+│   ├── Conos.html
+│   └── Paletas.html
+│
+├── header.html     <-- Archivo para el encabezado
+└── footer.html     <-- Archivo para el pie de página
